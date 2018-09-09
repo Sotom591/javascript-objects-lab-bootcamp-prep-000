@@ -12,7 +12,7 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value)
   return obj;
 }
 
-function deleteFromOnjectByKey(object, key)
+function deleteFromObjectByKey(object, key)
 {
   delete object.key;
 }
